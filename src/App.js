@@ -1,14 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+import {Welcome} from  './components/welcome';
+import { Clock } from './components/clock';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
-        <p>
-          Hello There.
-        </p>
+        <Welcome name="Sarah" />
+        
+        <Clock />
         
       </header>
     </div>
